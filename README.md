@@ -119,4 +119,4 @@ Sum of AVG = AVERAGE(Details[Amount])
 ## 👤 Author
 
 **Hash1608**
-- GitHub: [@Hash1608](https://github.com/Hash1608)
+- GitHub: [@Harshada-Navghane](https://github.com/Harshada-Navghane)
