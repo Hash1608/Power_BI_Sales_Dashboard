@@ -1,4 +1,4 @@
-## Ecommerce Sales Dashboard — Power BI
+## Ecommerce Sales Dashboard
 
 An interactive **Ecommerce Sales Dashboard** built with **Power BI**, **Excel**, and **DAX** to analyze sales performance, customer behavior, payment trends, and profit across categories and Indian states.
 
