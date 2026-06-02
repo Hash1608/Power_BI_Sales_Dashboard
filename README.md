@@ -1,16 +1,16 @@
-# 📊 Ecommerce Sales Dashboard — Power BI
+## Ecommerce Sales Dashboard — Power BI
 
 An interactive **Ecommerce Sales Dashboard** built with **Power BI**, **Excel**, and **DAX** to analyze sales performance, customer behavior, payment trends, and profit across categories and Indian states.
 
 ---
 
-## 🖼️ Dashboard Preview
+## Dashboard Preview
 
 ![Ecommerce Sales Dashboard](dashboard_preview.png)
 
 > *Built with Power BI Desktop | Data Source: Excel CSV Files*
 >
-> ## 📁 Project Structure
+> ##  Project Structure
 
 ```
 Power_BI_Sales_Dashboard/
@@ -20,7 +20,7 @@ Power_BI_Sales_Dashboard/
 ├── Sales_Dashboard.pbix  # Power BI report file
 └── README.md
 
-## 📂 Dataset Description
+##  Dataset Description
 
 ### `Orders.csv` — 501 rows
 | Column        | Description                          |
@@ -42,9 +42,9 @@ Power_BI_Sales_Dashboard/
 | Sub-Category | Product sub-category (Printers, Saree, Bookcases, etc.) |
 | PaymentMode  | Payment method used (COD, UPI, Credit Card, Debit Card, EMI) |
 
-## 📊 Dashboard Features & KPIs
+##  Dashboard Features & KPIs
 
-### 🔢 Key Metrics (KPI Cards)
+###  Key Metrics (KPI Cards)
 | Metric           | Value  |
 |------------------|--------|
 | Sum of Profit    | 37K    |
@@ -52,7 +52,7 @@ Power_BI_Sales_Dashboard/
 | Sum of Quantity  | 5,615  |
 | Sum of AVG       | 121K   |
 
-### 📈 Visualizations
+###  Visualizations
 
 | Visual | Description |
 |--------|-------------|
@@ -63,20 +63,14 @@ Power_BI_Sales_Dashboard/
 | **Mode of Payments** | Pie chart — COD is most preferred (43.74%), followed by UPI (20.61%) |
 | **Sales by Sub-Category** | Bar chart — Printers top at ₹8.6K, Bookcases at ₹6.5K |
 
-### 🎛️ Filters & Slicers
+###  Filters & Slicers
 - **Quarter Slicer** — Filter data by Qtr 1, Qtr 2, Qtr 3, Qtr 4
 - **Month Dropdown** — Drill down to a specific month
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
+ToolUsagePower BI DesktopDashboard creation and data visualizationMicrosoft ExcelData storage and preprocessing (CSV format)DAX (Data Analysis Expressions)Custom calculated measures and KPIsPower QueryData transformation and relationship modeling
 
-| Tool | Usage |
-|------|-------|
-| **Power BI Desktop** | Dashboard creation and data visualization |
-| **Microsoft Excel** | Data storage and preprocessing (CSV format) |
-| **DAX (Data Analysis Expressions)** | Custom calculated measures and KPIs |
-| **Power Query** | Data transformation and relationship modeling |
-
-## 🧮 DAX Measures Used
+##  DAX Measures Used
 
 ```dax
 -- Total Profit
@@ -92,3 +86,37 @@ Sum of Quantity = SUM(Details[Quantity])
 Sum of AVG = AVERAGE(Details[Amount])
 
   Order ID  ─────────────────  Order ID
+
+##  How to Use
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Hash1608/Power_BI_Sales_Dashboard.git
+   ```
+
+2. **Open in Power BI Desktop**
+   - Launch Power BI Desktop
+   - Open `Sales_Dashboard.pbix`
+
+3. **Refresh Data Source** (if needed)
+   - Go to `Home → Transform Data → Data Source Settings`
+   - Update the file paths to point to `Orders.csv` and `Details.csv`
+
+4. **Explore the Dashboard**
+   - Use the **Quarter** and **Month** slicers to filter data interactively
+   - Hover over charts for detailed tooltips
+  
+   - ## 💡 Key Insights
+
+- 🏆 **Maharashtra** is the highest revenue-generating state (₹102K)
+- 👗 **Clothing** dominates sales with over 62% of total category share
+- 💳 **Cash on Delivery (COD)** is the most preferred payment method (43.74%)
+- 📉 Profit dipped into negative territory during **June–September** months
+- 🖨️ **Printers** are the top-selling sub-category by revenue (₹8.6K)
+- 👤 **Harivansh** is the top customer by purchase value (₹9.9K)
+
+
+## 👤 Author
+
+**Hash1608**
+- GitHub: [@Hash1608](https://github.com/Hash1608)
